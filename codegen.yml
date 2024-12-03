@@ -1,0 +1,7 @@
+schema: https://flyby-locations-sub.herokuapp.com/
+documents: ./src/**/*.ts
+generates:
+  ./src/graphql/types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
